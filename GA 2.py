@@ -1,4 +1,4 @@
-import random,csv
+import random
 CP = 0.6
 MP = 0.05
 POP = 6
@@ -36,7 +36,7 @@ def choose_ones(lists):#can be modify
 def crossover(list):
     cut_point_one = random.randint(0,LONG-2)
     cut_point_two = random.randint(cut_point_one,LONG-1)
-    
+
 """def crossover(lists):  #chongxie
     #this will generate a crossovered result of given list
     #n is the rate of crossover
